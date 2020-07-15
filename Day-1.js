@@ -39,8 +39,8 @@ var num = -5;
 var num2 = 5.455
 var absoluteNumber = Math.abs(num);
 var result = Math.round(num2);
-//  ceil to give the higher number
-//  floor to give the lower number
+//  Math.ceil -----------ceil to give the higher number
+//  Math.floor ========floor to give the lower number
 //  var number = Math.random()*100;
 //  var result = Math.round(number);
 
