@@ -31,9 +31,6 @@ normalPerson.chargeBill.call(heroPerson, 900, 500, 100);
 
 normalPerson.chargeBill.apply(heroPerson, [1000, 20, 50])
 
-
-
-
 console.log(heroPerson.salary);
 
 
