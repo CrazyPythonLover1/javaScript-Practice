@@ -24,8 +24,8 @@ const friendlyPerson = {
 }
 normalPerson.chargeBill(150);
 
-// const heroChargeBill = normalPerson.chargeBill.bind(heroPerson);
-// heroChargeBill(2000);
+const heroChargeBill = normalPerson.chargeBill.bind(heroPerson);
+heroChargeBill(2000);
 
 normalPerson.chargeBill.call(heroPerson, 900, 500, 100);
 
